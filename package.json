@@ -46,7 +46,7 @@
     "chai": "^4.3.7",
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.35.0",
+    "eslint": "^8.43.0",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "source-map-support": "^0.5.21",
