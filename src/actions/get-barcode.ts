@@ -20,7 +20,6 @@ export function getBarcode(this: StarCLIClient, portName: string) {
 
 		wsStdOut.on('data', (buffer: Buffer) => {
 			const data = buffer.toString();
-
 			const part = data.split(':');
 
 			if (part.length !== 2) {
