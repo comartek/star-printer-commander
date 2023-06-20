@@ -8,7 +8,7 @@ export function getBarcode(this: StarCLIClient, portName: string) {
 	}>((resolve, reject) => {
 		let barcode = '';
 		const theCommand = this.pathToCLI;
-		const args = ['getbarcode', '--port', portName];
+		const args = ['barcode', '--port', portName];
 
 		const childProcess = spawn(theCommand, args);
 
