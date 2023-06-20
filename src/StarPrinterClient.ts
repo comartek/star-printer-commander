@@ -17,8 +17,14 @@ export class StarPrinterClient {
 		this.starCLIClient = _starCLIClient;
 	}
 
-	open = async () => {
+	openDrawer = async () => {
 		return this.starCLIClient.openDrawer(this.portName);
+	};
+
+	getBarcode = async (): Promise<{
+		barcodes: string[];
+	}> => {
+		return this.starCLIClient.getBarcode(this.portName);
 	};
 
 	printerStatus = async (): Promise<PrinterStatus> => {
@@ -32,16 +38,10 @@ export class StarPrinterClient {
 		return status;
 	};
 
-	getBarcode = async (): Promise<{
-		barcodes: string[];
-	}> => {
-		return this.starCLIClient.getBarcode(this.portName);
-	};
-
 	barcodeStatus = async (): Promise<BarcodeStatus> => {
 		const status = (await this.starCLIClient.status(
 			this.portName,
-			StatusTypeEnum.Printer
+			StatusTypeEnum.Barcode
 		)) as BarcodeStatus;
 
 		this.lastBarcodeStatus = status;
@@ -52,7 +52,7 @@ export class StarPrinterClient {
 	drawerStatus = async (): Promise<DrawerStatus> => {
 		const status = (await this.starCLIClient.status(
 			this.portName,
-			StatusTypeEnum.Printer
+			StatusTypeEnum.Drawer
 		)) as DrawerStatus;
 
 		this.lastDrawerStatus = status;
