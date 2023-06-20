@@ -1,16 +1,16 @@
 {
-  "name": "star-pop10",
-  "version": "1.0.5",
-  "description": "A complete Node.js project template using TypeScript and following general best practices.",
+  "name": "@comartek/star-pop10-commander",
+  "version": "0.0.1",
+  "description": "Support commands of star pop10 cash",
   "keywords": [
     "typescript",
     "template"
   ],
   "author": {
-    "name": "Chris Wells",
-    "url": "https://chriswells.io"
+    "name": "Comartek",
+    "url": "https://comartek.com"
   },
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/chriswells0/node-typescript-template.git"
