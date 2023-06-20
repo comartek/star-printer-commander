@@ -1,6 +1,6 @@
 {
   "name": "@comartek/star-pop10-commander",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Support commands of star pop10 cash",
   "keywords": [
     "typescript",
