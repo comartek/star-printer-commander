@@ -33,7 +33,7 @@ export class StarPrinterClient {
 	};
 
 	getBarcode = async (): Promise<{
-		barcode: string;
+		barcodes: string[];
 	}> => {
 		return this.starCLIClient.getBarcode(this.portName);
 	};
