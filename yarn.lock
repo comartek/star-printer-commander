@@ -3012,9 +3012,9 @@ signal-exit@^3.0.2:
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 sitka@^1.0.6:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/sitka/-/sitka-1.1.0.tgz#f558e1ec869d850c350f07709d7b5386e57e321a"
-  integrity sha512-CWps6yNlnVfjcnrrxqOhdS9bM85iJxf+khYIxKKhvLDfnugmgMH0Z2xiEQDiZ0ykjY6g/YFT65ehj+N2yofMpQ==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/sitka/-/sitka-1.1.1.tgz#3f93ccc84160e9c7a233d7afb3ec00630f92423c"
+  integrity sha512-GjvAdRLNH1eJZoTGtB2dHg1CGqZ3qoeBNbF5oWZL7tlWxMZ1WGnsPpJDmrcc302NA46qRUQZMXk0hiXW6HV+qA==
 
 slash@^3.0.0:
   version "3.0.0"
